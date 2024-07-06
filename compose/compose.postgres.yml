@@ -18,6 +18,8 @@ services:
       POSTGRES_DB: hapi
     volumes:
       - ../data/hapi.postgress.data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
 
 configs:
   hapi:
