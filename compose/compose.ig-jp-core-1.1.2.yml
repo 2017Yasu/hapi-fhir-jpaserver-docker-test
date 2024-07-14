@@ -1,0 +1,13 @@
+services:
+  fhir:
+    container_name: fhir
+    image: "hapiproject/hapi:latest"
+    ports:
+      - "8080:8080"
+    configs:
+      - source: hapi
+        target: /app/config/application.yaml
+
+configs:
+  hapi:
+     file: ../configs/ig-jp-core-1.1.2.application.yaml
