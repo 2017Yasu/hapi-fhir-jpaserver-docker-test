@@ -119,6 +119,10 @@ hapi:
         packageUrl: https://jpfhir.jp/fhir/core/1.1.2/jp-core.r4-1.1.2.tgz
         name: jp-core.r4
         version: 1.1.2
+      jpfhir_terminology_r4_1_2_0:
+        packageUrl: https://jpfhir.jp/fhir/core/terminology/jpfhir-terminology.r4-1.2.0.tgz
+        name: jpfhir-terminology
+        version: 1.2.0
     #    supported_resource_types:
     #      - Patient
     #      - Observation
