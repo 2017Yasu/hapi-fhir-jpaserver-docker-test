@@ -1,19 +1,10 @@
 #!/bin/sh
 
-# 変更されたファイルを取得
-changed_files=$(git diff --cached --name-only --diff-filter=ACM)
-
-# 現在の日時を取得
 current_time=$(TZ=UTC date +"%Y-%m-%dT%H:%M:%SZ")
 
-# 各変更ファイルに対して update_at プロパティを更新
-for file in "$changed_files"; do
-  # YAMLファイルのみを対象とする
-  if [[ $file == *.md ]]; then
-    # update_at プロパティを更新
-    sed -i'' -e "s/update_at: .*/update_at: $current_time/" "$file"
-
-    # ファイルをステージングに追加
+for file in ./docs/*.md; do
+  if ! git diff --cached --name-only --diff-filter=ACM --exit-code -- "$file" > /dev/null; then
+    sed -i '' -e "s/updated_at: .*/updated_at: '$current_time'/" "$file"
     git add "$file"
   fi
 done
