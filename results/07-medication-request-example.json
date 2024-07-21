@@ -1,0 +1,8 @@
+{
+  "resourceType": "OperationOutcome",
+  "issue": [ {
+    "severity": "error",
+    "code": "processing",
+    "diagnostics": "HAPI-1910: Failure invoking interceptor for pointcut(s) SERVER_INCOMING_REQUEST_POST_PROCESSED"
+  } ]
+}
