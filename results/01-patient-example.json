@@ -3,6 +3,6 @@
   "issue": [ {
     "severity": "error",
     "code": "processing",
-    "diagnostics": "HAPI-1095: Resource contains reference to unknown resource ID Organization/1"
+    "diagnostics": "HAPI-1094: Resource Organization/1 not found, specified in path: Patient.managingOrganization"
   } ]
 }
