@@ -20,7 +20,7 @@ services:
       POSTGRES_USER: admin
       POSTGRES_DB: hapi
     volumes:
-      - ../data/hapi.postgress.data:/var/lib/postgresql/data
+      - ../data/hapi.postgres.data:/var/lib/postgresql/data
 
 configs:
   hapi:
