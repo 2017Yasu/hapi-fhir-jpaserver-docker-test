@@ -96,20 +96,13 @@ hapi:
         packageUrl: https://profiles.ihe.net/ITI/SVCM/package.tgz
         name: ihe.iti.svcm
         version: 1.5.1
-    ###    example from registry (packages.fhir.org)
-    #  swiss:
-    #    name: swiss.mednet.fhir
-    #    version: 0.8.0
-    #    reloadExisting: false
-    #    installMode: STORE_AND_INSTALL
-    #      example not from registry
-    #      ips_1_0_0:
-    #        packageUrl: https://build.fhir.org/ig/HL7/fhir-ips/package.tgz
-    #        name: hl7.fhir.uv.ips
-    #        version: 1.0.0
-    #    supported_resource_types:
-    #      - Patient
-    #      - Observation
+    supported_resource_types:
+      - CodeSystem
+      - ConceptMap
+      - ValueSet
+      - AuditEvent
+      - CapabilityStatement
+      - Binary
     ##################################################
     # Allowed Bundle Types for persistence (defaults are: COLLECTION,DOCUMENT,MESSAGE)
     ##################################################
