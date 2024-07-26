@@ -1,0 +1,25 @@
+{
+  "resourceType": "Parameters",
+  "parameter": [ {
+    "name": "result",
+    "valueBoolean": true
+  }, {
+    "name": "message",
+    "valueString": "Matches found"
+  }, {
+    "name": "match",
+    "part": [ {
+      "name": "equivalence",
+      "valueCode": "equivalent"
+    }, {
+      "name": "concept",
+      "valueCoding": {
+        "system": "http://example.org/svcm/example2",
+        "code": "example"
+      }
+    }, {
+      "name": "source",
+      "valueUri": "http://example.org/svcm/example-conceptmap"
+    } ]
+  } ]
+}
