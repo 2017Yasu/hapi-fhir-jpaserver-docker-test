@@ -9,7 +9,7 @@ services:
       - source: hapi
         target: /app/config/application.yaml
     volumes:
-      - ./data/hapi.lucenefiles:/app/lucenefiles
+      - ../data/hapi.lucenefiles:/app/lucenefiles
     depends_on:
       - db
 
