@@ -1,10 +1,10 @@
 {
   "resourceType": "CodeSystem",
-  "id": "55",
+  "id": "21",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2024-07-25T07:06:13.867+00:00",
-    "source": "#kvYx3cuq10v5WR2o",
+    "lastUpdated": "2024-07-26T02:41:38.559+00:00",
+    "source": "#1AqOpBQA2NNYBeaa",
     "profile": [ "https://profiles.ihe.net/ITI/SVCM/StructureDefinition/IHE.SVCM.CodeSystem" ]
   },
   "text": {

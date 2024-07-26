@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "id": "23",
+  "meta": {
+    "extension": [ {
+      "url": "http://hapifhir.io/fhir/StructureDefinition/valueset-expansion-message",
+      "valueString": "ValueSet was expanded using an expansion that was pre-calculated at 2024-07-26T04:10:33.764+00:00 (00:00:44.015 ago)"
+    } ],
+    "versionId": "1"
+  },
+  "url": "http://example.org/svcm/example-valueset",
+  "status": "active",
+  "compose": {
+    "include": [ {
+      "system": "http://example.org/svcm/example"
+    } ]
+  },
+  "expansion": {
+    "identifier": "ec54dd0e-dec7-4a31-b286-ef49a2a0885c",
+    "timestamp": "2024-07-26T04:11:17+00:00",
+    "total": 1,
+    "offset": 0,
+    "parameter": [ {
+      "name": "offset",
+      "valueInteger": 0
+    }, {
+      "name": "count",
+      "valueInteger": 1000
+    } ],
+    "contains": [ {
+      "system": "http://example.org/svcm/example",
+      "version": "1.5.1",
+      "code": "example",
+      "display": "Example"
+    } ]
+  }
+}

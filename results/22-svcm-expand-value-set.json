@@ -1,0 +1,8 @@
+{
+  "resourceType": "OperationOutcome",
+  "issue": [ {
+    "severity": "error",
+    "code": "processing",
+    "diagnostics": "HAPI-0389: Failed to call access method: org.hibernate.search.util.common.SearchException: HSEARCH800001: Hibernate Search was not initialized."
+  } ]
+}
