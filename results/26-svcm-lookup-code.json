@@ -1,0 +1,16 @@
+{
+  "resourceType": "Parameters",
+  "parameter": [ {
+    "name": "name",
+    "valueString": "SVCMExampleCodeSystem"
+  }, {
+    "name": "version",
+    "valueString": "1.5.1"
+  }, {
+    "name": "display",
+    "valueString": "Example"
+  }, {
+    "name": "abstract",
+    "valueBoolean": false
+  } ]
+}

@@ -1,0 +1,10 @@
+{
+  "resourceType": "Parameters",
+  "parameter": [ {
+    "name": "result",
+    "valueBoolean": false
+  }, {
+    "name": "message",
+    "valueString": "Unable to validate code http://example.org/svcm/example#no-code - Code is not found in CodeSystem: http://example.org/svcm/example"
+  } ]
+}

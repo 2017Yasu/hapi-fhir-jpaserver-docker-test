@@ -1,0 +1,13 @@
+{
+  "resourceType": "Parameters",
+  "parameter": [ {
+    "name": "result",
+    "valueBoolean": true
+  }, {
+    "name": "message",
+    "valueString": "Code validation occurred using a ValueSet expansion that was pre-calculated at 2024-07-26T04:10:33.764+00:00 (01:30:11 ago)"
+  }, {
+    "name": "display",
+    "valueString": "Example"
+  } ]
+}

@@ -1,0 +1,10 @@
+{
+  "resourceType": "Parameters",
+  "parameter": [ {
+    "name": "result",
+    "valueBoolean": false
+  }, {
+    "name": "message",
+    "valueString": "Unable to validate code http://example.org/not/such/a/system#example - No codes in ValueSet belong to CodeSystem with URL http://example.org/not/such/a/system"
+  } ]
+}

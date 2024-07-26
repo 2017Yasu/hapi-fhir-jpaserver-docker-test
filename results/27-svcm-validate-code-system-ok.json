@@ -1,0 +1,10 @@
+{
+  "resourceType": "Parameters",
+  "parameter": [ {
+    "name": "result",
+    "valueBoolean": true
+  }, {
+    "name": "display",
+    "valueString": "Example"
+  } ]
+}
